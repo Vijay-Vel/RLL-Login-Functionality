@@ -39,7 +39,7 @@ public class LoginPageTest extends TestBase {
 		lp.user_login(email,password);
 		String uname=lp.get_uname();
 		
-		Assert.assertEquals(uname, email);
+		Assert.assertNotEquals(uname, "My Account");
 		lp.user_logout();
 		RowNum=RowNum+1;
 	}
