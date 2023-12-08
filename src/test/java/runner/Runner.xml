@@ -5,4 +5,9 @@
 <class name="tests.LoginPageTest"></class>
 </classes>
 </test>
+  <test name="POMframework for FictionBooksTest">
+<classes>
+<class name="tests.FictionBooksTest"></class>
+</classes>
+</test>
 </suite>
