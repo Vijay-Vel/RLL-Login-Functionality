@@ -1,0 +1,8 @@
+<suite name="test1" verbose="1">
+
+<test name="POMframework for Login">
+<classes>
+<class name="tests.LoginPageTest"></class>
+</classes>
+</test>
+</suite>
